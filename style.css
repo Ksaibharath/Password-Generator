@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #e2e9ea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: rgb(227, 232, 232);
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  width: 350px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.options label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 8px 12px;
+  margin-top: 15px;
+  width: 100%;
+  background-color: #3f72af;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.result {
+  display: flex;
+  margin-top: 15px;
+}
+
+#passwordDisplay {
+  flex: 1;
+  padding: 8px;
+  margin-right: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
